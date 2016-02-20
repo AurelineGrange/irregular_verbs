@@ -96,7 +96,7 @@ V E R B S   T A B L E
 		font-size: 15px;
 		color: $veryDarkGrey;
 		padding: 15px;
-		border-bottom: 1px solid $mediumGrey;
+		border-bottom: 1px solid $lightGrey;
 		border-collapse: collapse;
 	}
 
@@ -114,15 +114,13 @@ V E R B S   T A B L E
 	margin-bottom: 40px;
 }
 
+
 .list-header{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	color: $strawberry;
 	font-size: 18px;		
-	border-bottom: 1px solid $strawberry;
-	border-collapse: collapse;
 	padding: 10px;
-	border-collapse: collapse;
 }
 
 .list-verbs{
@@ -131,8 +129,6 @@ V E R B S   T A B L E
 	font-size: 15px;
 	color: $darkGrey;
 	padding: 10px;
-	border-bottom: 1px solid $lightGrey;
-	border-collapse: collapse;	
 }
 
 
