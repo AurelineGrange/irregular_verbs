@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  infinitive: MyString
+  simple_past: MyString
+  past_participle: MyString
+
+two:
+  infinitive: MyString
+  simple_past: MyString
+  past_participle: MyString
