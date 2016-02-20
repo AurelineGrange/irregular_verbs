@@ -1,14 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>IrregularVerbs</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
+	<title>Irregular Verbs English</title>
+	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	<%= csrf_meta_tags %>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 </head>
+
 <body>
 
-<%= yield %>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
 
+			<div class="navbar-header">
+				<div class="navbar-brand">
+					<i class="fa fa-flag-checkered fa-2x"></i>
+				</div>
+				<div class="navbar-text">
+					Irregular Verbs English
+				</div>
+			</div>
+		</div>
+	</nav>
+
+
+	<%= yield %>
+
+	<footer>
+		<div class="footer-text">
+			<p>Made with <i class="fa fa-heart"></i> from Switzerland</p>
+		</div>
+	</footer>
 </body>
 </html>
