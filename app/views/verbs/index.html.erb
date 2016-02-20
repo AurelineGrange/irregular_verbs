@@ -10,6 +10,32 @@
 			</div>
 		</div>
 
+		<div class="verbs-list">
+			<div class="col-md-4 col-xs-4 list-header">
+				Infinitive
+			</div>
+			<div class="col-md-4 col-xs-4 list-header">
+				Simple Past
+			</div>
+			<div class="col-md-4 col-xs-4 list-header">
+				Past Participle
+			</div>
+
+			<% @verbs.each do |verb| %> 
+			<div class="col-md-4 col-xs-4 list-verbs">
+				<%= verb.infinitive %>
+			</div>
+			<div class="col-md-4 col-xs-4 list-verbs">
+				<%= verb.simple_past %>
+			</div>
+			<div class="col-md-4 col-xs-4 list-verbs">
+				<%= verb.past_participle %>
+			</div>
+			<% end %>
+
+		</div>
+
+<!-- 
 		<table class="verbs-table">
 			<th>Infinitive</th>
 			<th>Simple Past</th>
@@ -22,7 +48,9 @@
 			</tr>
 			<% end %>
 		</table>
-	</div>
+	-->
+
+</div>
 
 </div>
 </div>

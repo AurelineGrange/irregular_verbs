@@ -18,7 +18,9 @@ C O L O R S
 
 $strawberry : #D1004C;
 $veryDarkGrey: #2C2C2C;
+$darkGrey: #5C5C5C;
 $mediumGrey: #9A9A9A;
+$lightGrey: #C6C6C6;
 
 
 /* - - - - - - - - - - - - - - - - - - - - - - 
@@ -47,18 +49,18 @@ N A V B A R   &   F O O T E R
 	background-color: $strawberry;
 	margin-bottom: 40px;
 
-.navbar-text{
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
-	font-size: 24px;
-	color: #fff;
-	letter-spacing: 0.1em;
+	.navbar-text{
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+		font-size: 24px;
+		color: #fff;
+		letter-spacing: 0.1em;
 	}
 
-.navbar-brand {
-	height: 100%;
-	color: white;
-}
+	.navbar-brand {
+		height: 100%;
+		color: white;
+	}
 }
 
 footer{
@@ -73,7 +75,7 @@ footer{
 	margin-top: 40px;
 	.footer-text{
 		padding-top: 40px;
-}
+	}
 
 }
 
@@ -87,7 +89,7 @@ V E R B S   T A B L E
 .verbs-table{
 	table-layout: fixed;
 	width: 100%;
-    
+
 	th, td{
 		font-family: 'Open Sans', sans-serif;
 		font-weight: 400;
@@ -106,10 +108,31 @@ V E R B S   T A B L E
 		border-collapse: collapse;
 	}
 
-	}
+}
 
 .instructions-header{
 	margin-bottom: 40px;
+}
+
+.list-header{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	color: $strawberry;
+	font-size: 18px;		
+	border-bottom: 1px solid $strawberry;
+	border-collapse: collapse;
+	padding: 10px;
+	border-collapse: collapse;
+}
+
+.list-verbs{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: $darkGrey;
+	padding: 10px;
+	border-bottom: 1px solid $lightGrey;
+	border-collapse: collapse;	
 }
 
 
