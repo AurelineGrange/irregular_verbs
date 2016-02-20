@@ -1,0 +1,28 @@
+<div class="container">
+	<div class="col-md-8  col-md-offset-2 col-xs-8 col-xs-offset-2">
+
+		<div class="col-md-8 col-xs-8 col-md-offset-2 col-xs-offset-2">
+			<div class="instructions-header">
+				<h1>Welcome!</h1>
+				<p class="text-center">Here's a complete list of irregular verbs in english. <br> <br>
+					If you're just looking for a specific verb, <br>use Ctrl+F for <i class="fa fa-windows"></i> or Cmd+F for <i class="fa fa-apple"></i> and type your verb.<br><br>
+					<strong>Happy learning!</strong>
+				</p>
+			</div>
+		</div>
+
+		<table class="verbs-table">
+			<th>Infinitive</th>
+			<th>Simple Past</th>
+			<th>Past Participle</th>
+			<% @verbs.each do |verb| %> 
+			<tr>
+				<td><%= verb.infinitive %></td>
+				<td><%= verb.simple_past %></td>
+				<td><%= verb.past_participle %></td>
+			</tr>
+			<% end %>
+		</table>
+
+	</div>
+</div>

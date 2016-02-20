@@ -1,0 +1,116 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/* TABLE OF CONTENT
+
+- C O L O R S
+- N A V B A R / B O D Y 
+- V E R B S   T A B L E
+
+
+
+*/
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - 
+C O L O R S
+- - - - - - - - - - - - - - - - - - - - - - */
+
+$strawberry : #D1004C;
+$veryDarkGrey: #2C2C2C;
+$mediumGrey: #9A9A9A;
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - 
+F O N T S 
+- - - - - - - - - - - - - - - - - - - - - - */
+
+h1, h2, h3, h4, h5, p, a{
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 0.3%;
+	line-height: 1.5em;
+}
+
+h1{
+	color: $strawberry;
+	text-align: center;
+	padding-bottom: 10px;
+	letter-spacing: 0.1em;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - 
+N A V B A R   &   F O O T E R
+- - - - - - - - - - - - - - - - - - - - - - */
+
+.navbar{
+	background-color: $strawberry;
+	margin-bottom: 40px;
+
+.navbar-text{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	color: #fff;
+	letter-spacing: 0.1em;
+	}
+
+.navbar-brand {
+	height: 100%;
+	margin-left: 40%;
+	color: white;
+}
+}
+
+footer{
+	background-color: $strawberry;
+	text-align: center;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	letter-spacing: 0.1em;
+	height: 100px;
+	margin-top: 40px;
+	.footer-text{
+		padding-top: 40px;
+}
+
+}
+
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - 
+V E R B S   T A B L E
+- - - - - - - - - - - - - - - - - - - - - - */
+
+.verbs-table{
+	table-layout: fixed;
+	width: 100%;
+    
+	th, td{
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 400;
+		font-size: 15px;
+		color: $veryDarkGrey;
+		padding: 15px;
+		border-bottom: 1px solid $mediumGrey;
+		border-collapse: collapse;
+	}
+
+	th{
+		font-weight: 600;
+		color: $strawberry;
+		font-size: 18px;
+		border-bottom: 1px solid $strawberry;
+		border-collapse: collapse;
+	}
+
+	}
+
+.instructions-header{
+	margin-bottom: 40px;
+}
+
+
