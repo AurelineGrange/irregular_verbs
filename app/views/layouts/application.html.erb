@@ -21,24 +21,28 @@
 
 <body>
 
-<div class="wrapper">
-	<nav class="navbar navbar-default">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<div class="navbar-brand">
-					<i class="fa fa-life-ring fa-2x"></i>
+	<div class="wrapper">
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<div class="navbar-brand">
+						<i class="fa fa-life-ring"></i>
+					</div>
+					<div class="navbar-text">
+						<%= link_to "Irregular Verbs English", root_path %>
+					</div>
 				</div>
-				<div class="navbar-text">
-					Irregular Verbs English
-				</div>
+				<ul class="nav navbar-nav navbar-right">
+					<li><%= link_to "Home", root_path %></li>
+					<li><a href="/methods">Tips</a></li>
+				</ul>
 			</div>
-		</div>
-	</nav>
+		</nav>
 
 
-	<%= yield %>
-	<div class="push"></div>
-</div>
+		<%= yield %>
+		<div class="push"></div>
+	</div>
 	<div class="footer hidden-xs">
 		<div class="footer-text">
 			<p>Made with <i class="fa fa-heart"></i> in Switzerland</p>

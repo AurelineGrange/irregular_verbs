@@ -17,6 +17,7 @@ C O L O R S
 - - - - - - - - - - - - - - - - - - - - - - */
 
 $strawberry : #D1004C;
+$darkStrawberry: #B80043;
 $veryDarkGrey: #2C2C2C;
 $darkGrey: #5C5C5C;
 $mediumGrey: #9A9A9A;
@@ -40,6 +41,34 @@ h1{
 	letter-spacing: 0.1em;
 }
 
+h2{
+	color: $strawberry;
+	text-align: center;
+	padding-bottom: 10px;
+	letter-spacing: 0.1em;
+	font-size: 22px;
+	font-weight: 300;
+}
+
+h3{
+	color: $strawberry;
+	text-align: center;
+	padding-bottom: 10px;
+	letter-spacing: 0.1em;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+h4{
+	color: $strawberry;
+	text-align: center;
+	padding-bottom: 10px;
+	letter-spacing: 0.1em;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+
 
 /* - - - - - - - - - - - - - - - - - - - - - - 
 N A V B A R   &   F O O T E R
@@ -53,23 +82,59 @@ html,body {
 	height: 100%; 
 }
 
+
 .navbar{
 	background-color: $strawberry;
 	margin-bottom: 40px;
 
-	.navbar-text{
+	.navbar-text a{
 		font-family: 'Open Sans', sans-serif;
 		font-weight: 300;
-		font-size: 24px;
+		font-size: 21px;
 		color: #fff;
 		letter-spacing: 0.1em;
+		&:hover{
+			text-decoration: none;
+			font-weight: 400;
+		};
 	}
 
 	.navbar-brand {
 		height: 100%;
 		color: white;
+		&:hover{
+			color: white;
+		};
+		.fa{
+			font-size: 1.6em;
+		}
 	}
 }
+
+.navbar-default .navbar-nav{
+	padding-right: 40px;
+}
+
+
+.navbar-default .navbar-nav > li > a{
+	color: white;
+	font-size: 16px;
+	font-weight: 300;
+	letter-spacing: 0.1em;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:active, .navbar-default .navbar-nav li a:focus, .navbar-default .navbar-nav li a.active {
+	background-color: $darkStrawberry;
+	color: white;
+}
+
+.navbar-nav > li > a {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
 
 .wrapper{
 	min-height: 100%;
@@ -96,6 +161,10 @@ html,body {
 		padding-top: 35px;
 	}
 
+}
+
+.intro{
+	padding-bottom: 40px;
 }
 
 
@@ -148,5 +217,18 @@ V E R B S   T A B L E
 	color: $darkGrey;
 	padding: 10px;
 }
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - 
+M E T H O D S 
+- - - - - - - - - - - - - - - - - - - - - - */
+
+.grouped-verbs{
+	text-align: left;
+	margin-bottom: 60px;
+}
+
+
 
 
